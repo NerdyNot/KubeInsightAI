@@ -1,0 +1,21 @@
+openai:
+  type: "openai"  # Specify "openai" or "azure"
+  api_key: "your_openai_api_key"  # Your OpenAI API key
+  model: "gpt-3.5-turbo"  # The OpenAI model to use (e.g., "gpt-3.5-turbo")
+  # Uncomment and set the following fields if using Azure OpenAI
+  # azure_endpoint: "https://your_azure_endpoint"  # Your Azure OpenAI endpoint
+  # azure_apiversion: "2023-03-15-preview"  # The API version for Azure OpenAI
+
+kubernetes:
+  kubeconfig: "/path/to/your/kubeconfig"  # Path to your kubeconfig file
+
+email:
+  from_email: "your_email@example.com"  # Sender email address
+  to_email: "recipient@example.com"  # Recipient email address
+  subject: "Kubernetes Status Report"  # Email subject
+  smtp_server: "smtp.example.com"  # SMTP server address
+  smtp_port: 587  # SMTP server port
+  password: "your_email_password"  # Email account password
+
+slack:
+  webhook_url: "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"  # Slack webhook URL for sending reports
