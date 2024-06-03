@@ -153,6 +153,8 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 - **License**: Apache License 2.0
 - **Usage**: Used to send HTTP requests to Slack webhook URLs.
 
+---
+
 # KubeInsightAI
 
 KubeInsightAI는 Kubernetes 클러스터의 상태를 분석하고 보고서를 생성하여 이메일이나 Slack으로 전송하거나 파일로 저장하는 도구입니다. 이 도구는 OpenAI 또는 Azure OpenAI를 활용하여 보고서를 생성합니다. Kubernetes API를 사용하여 클러스터의 상태를 수집하고, 보고서를 자동으로 생성하여 관리자가 클러스터의 상태를 쉽게 파악할 수 있도록 도와줍니다.
