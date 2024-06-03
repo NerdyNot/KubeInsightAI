@@ -152,7 +152,6 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 - **Description**: A simple, yet elegant HTTP library for Python.
 - **License**: Apache License 2.0
 - **Usage**: Used to send HTTP requests to Slack webhook URLs.
-```
 
 # KubeInsightAI
 
